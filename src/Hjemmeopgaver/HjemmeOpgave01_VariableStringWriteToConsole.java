@@ -1,9 +1,11 @@
 package Hjemmeopgaver;
 
 public class HjemmeOpgave01_VariableStringWriteToConsole {
-    public static void Message03() {
+    public static void main(String[] args) {
+        Message02();
+    }
 
-
+    public static void Message02() {
         //Using the string variable together with \t to get the wanted spaces.
         String Mission = "Mission \t Year \t Days in Space";
         String IRISS = "IRISS \t \t 2015 \t 10";
@@ -13,4 +15,4 @@ public class HjemmeOpgave01_VariableStringWriteToConsole {
         System.out.println(IRISS);
         System.out.println(Huginn);
     }
-}
+    }
