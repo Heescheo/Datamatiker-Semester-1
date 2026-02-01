@@ -1,6 +1,6 @@
 package Hjemmeopgaver;
 
-public class HjemmeOpgave01 {
+public class HjemmeOpgave01_ReturnFromConsole {
     public static void main(String[] args){
         System.out.println(MissionTable01());
     }
